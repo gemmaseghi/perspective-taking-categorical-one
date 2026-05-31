@@ -23,7 +23,7 @@
     <InstructionScreen :title="'Example'">
 
       <img
-        src="/instructions/example_view.png"
+        src="instructions/example_view.png"
         style="width: 800px; max-width: 100%;"
       />
 
