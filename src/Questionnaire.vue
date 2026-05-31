@@ -5,8 +5,8 @@
     <!-- Step 1: Question A -->
     <div v-if="step === 1" class="question">
       <p>
-        Did you think there was anything peculiar in the way the director
-        formulated the instructions?
+        Did you think there was anything peculiar in the way the speaker
+        formulated the descriptions?
       </p>
 
       <label>
@@ -27,7 +27,7 @@
     <!-- Step 2: Question B -->
     <div v-if="step === 2" class="question">
       <div v-if="peculiar === 'yes'">
-        <p>What was peculiar about the instructions?</p>
+        <p>What was peculiar about the descriptions?</p>
         <textarea v-model="peculiarExplanation"></textarea>
       </div>
 
@@ -44,7 +44,7 @@
     <!-- Step 3: Question C -->
     <div v-if="step === 3" class="question">
       <p>
-        Did you suspect that the director could see what was in the grey cell?
+        Did you suspect that the speaker could see what was in the grey cell?
         Please explain why and give examples if possible.
       </p>
 
